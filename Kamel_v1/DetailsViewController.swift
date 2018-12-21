@@ -47,7 +47,7 @@ class DetailsViewController: UIViewController, UIPickerViewDataSource, UIPickerV
     
     
     func textFieldDidEndEditing(_ textField: UITextField) {
-        priceLabel.text = "$\(priceTextField.text) /day"
+        priceLabel.text = "$\(String(describing: priceTextField.text)) /day"
     }
     
 
